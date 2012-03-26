@@ -64,7 +64,7 @@ limitations under the License.
                 <skip.ie>true</skip.ie>
                 <skip.chrome>true</skip.chrome>
                 <skip.safari>true</skip.safari>
-                <!--selunit.plugin.version>0.7.2</selunit.plugin.version-->
+                <selunit.plugin.version>0.7.2</selunit.plugin.version>
         </properties>
 
         <build>
