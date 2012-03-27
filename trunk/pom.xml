@@ -61,7 +61,7 @@ limitations under the License.
 
         <properties>
                 <!-- Disable jobs for all browsers but Firefox by default -->
-                <skip.ie>false</skip.ie>
+                <skip.ie>true</skip.ie>
                 <skip.chrome>true</skip.chrome>
                 <skip.safari>true</skip.safari>
                 <skip.ff>true</skip.ff>
