@@ -18,8 +18,8 @@ limitations under the License.
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <modelVersion>4.0.0</modelVersion>
         <groupId>org.selunit</groupId>
-        <artifactId>selunit-maven-plugin-example</artifactId>
-        <name>selunit-maven-plugin-example</name>
+        <artifactId>selunit-maven-plugin</artifactId>
+        <name>selunit-maven-plugin</name>
         <version>0.7.3-SNAPSHOT</version>
         <packaging>pom</packaging>
         <developers>
@@ -61,9 +61,10 @@ limitations under the License.
 
         <properties>
                 <!-- Disable jobs for all browsers but Firefox by default -->
-                <skip.ie>true</skip.ie>
+                <skip.ie>false</skip.ie>
                 <skip.chrome>true</skip.chrome>
                 <skip.safari>true</skip.safari>
+                <skip.ff>true</skip.ff>
                 <selunit.plugin.version>0.7.2</selunit.plugin.version>
         </properties>
 
