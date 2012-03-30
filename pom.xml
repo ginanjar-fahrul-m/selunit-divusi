@@ -61,8 +61,8 @@ limitations under the License.
 
         <properties>
                 <!-- Disable jobs for all browsers but Firefox by default -->
-                <skip.ie>true</skip.ie>
-                <skip.chrome>true</skip.chrome>
+                <skip.ie>false</skip.ie>
+                <skip.chrome>false</skip.chrome>
                 <skip.safari>true</skip.safari>
                 <skip.ff>false</skip.ff>
                 <selunit.plugin.version>0.7.2</selunit.plugin.version>
