@@ -18,8 +18,8 @@ limitations under the License.
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <modelVersion>4.0.0</modelVersion>
         <groupId>org.selunit</groupId>
-        <artifactId>selunit-maven-plugin</artifactId>
-        <name>selunit-maven-plugin</name>
+        <artifactId>selunit-maven-plugin-example</artifactId>
+        <name>selunit-maven-plugin-example</name>
         <version>0.7.3-SNAPSHOT</version>
         <packaging>pom</packaging>
         <developers>
