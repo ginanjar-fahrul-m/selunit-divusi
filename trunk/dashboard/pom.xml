@@ -76,7 +76,7 @@ limitations under the License.
                                 <version>${selunit.plugin.version}</version>
                                 <configuration>
                                         <seleniumProperties>
-                                                <browserUrl>http://demo.divusi.com/dashboard</browserUrl>
+                                                <browserUrl>http://demo.divusi.com/dashboard/</browserUrl>
                                         </seleniumProperties>
                                         <includeSuites>
                                                 <include>demo.divusi.com.dashboard/*.html</include>
